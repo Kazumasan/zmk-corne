@@ -46,14 +46,14 @@
         raise_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB | "|" |     |  €  |     |     |   |  `  |  {  |  [  |  ]  |  }  |  \    |
-            // | CTRL |  !  |  "  |  §  |  $  |  %  |   |  &  |  /  |  (  |  )  |  =  | BKSP  |
-            // | SHFT |  <  |     |     |     |     |   |  #  |  +  |  *  |  ~  |     | BTCLR |
+            // | SHFT |  !  |  "  |  §  |  $  |  %  |   |  &  |  /  |  (  |  )  |  =  | BKSP  |
+            // | CTRL |  <  |     |     |     |     |   |  #  |  +  |  *  |  ~  |     | BTCLR |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
 &kp TAB    &kp DE_PIPE  &trans      &kp DE_EURO &trans      &trans              &kp DE_GRAVE    &kp DE_LEFT_BRACE   &kp DE_LEFT_BRACKET         &kp DE_RIGHT_BRACKET            &kp DE_RIGHT_BRACE  &kp DE_BSLH
-&kp LCTRL  &kp DE_EXCL  &kp DE_DQT  &kp DE_SECT &kp DE_DLLR &kp DE_PRCNT        &kp DE_AMPS     &kp DE_FSLH         &kp DE_LEFT_PARENTHESIS     &kp DE_RIGHT_PARENTHESIS        &kp DE_EQUAL        &trans
-&kp LSHFT  &kp DE_LT    &trans      &trans      &trans      &trans              &kp DE_POUND    &kp DE_PLUS         &kp DE_STAR                 &kp DE_TILDE                    &trans              &bt BT_CLR
+&kp LSHFT  &kp DE_EXCL  &kp DE_DQT  &kp DE_SECT &kp DE_DLLR &kp DE_PRCNT        &kp DE_AMPS     &kp DE_FSLH         &kp DE_LEFT_PARENTHESIS     &kp DE_RIGHT_PARENTHESIS        &kp DE_EQUAL        &trans
+&kp LCTRL  &kp DE_LT    &trans      &trans      &trans      &trans              &kp DE_POUND    &kp DE_PLUS         &kp DE_STAR                 &kp DE_TILDE                    &trans              &bt BT_CLR
                                     &kp LGUI    &trans      &kp SPACE           &kp RET         &trans              &kp RALT
             >;
         };
